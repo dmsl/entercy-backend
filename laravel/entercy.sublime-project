@@ -1,0 +1,66 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"settings":
+	{
+		"rsync_ssh":
+		{
+			// To use non-standard ssh specify the path here
+            //"ssh_binary": "C:/cygwin64/bin/ssh.exe",
+            "ssh_binary": "C:/cygwin64/bin/ssh",
+			"excludes":
+			[
+				".git*",
+				"_build",
+				"blib",
+				"Build"
+			],
+			"options":
+			[
+				//"-e C:\\cygwin64\\bin\\ssh.exe",				
+				"--no-perms",
+				"--chmod=ugo=rwX",
+				//"--dry-run",
+				"--delete"
+			],
+			"remotes":
+			{
+				"C:\\Users\\user\\Laravel\\entercy":
+				[
+					{
+						"enabled": 1,
+						"excludes":
+						[
+							"entercy.sublime-project",
+							// laravel excludes
+						"bootstrap/cache/",
+						".env",
+						".composer.lock",
+						".idea",
+						"node_modules",
+						"storage/framework/cache/",
+						"storage/framework/session/",
+						"storage/framework/views/",
+						"storage/logs/",
+						"storage/app/",
+						],
+						"options":
+						[
+						],
+						"remote_host": "entercy.cs.ucy.ac.cy",
+						"remote_path": "/home/entercy/entercy-alpha",
+						"remote_port": 22,
+						"remote_post_command": "pwd && pwd",
+						"remote_pre_command": "date",
+						"remote_user": "entercy"
+					}
+				]
+			},
+			"sync_on_save": true
+		}
+	}
+}
