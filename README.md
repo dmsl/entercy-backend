@@ -61,4 +61,4 @@ The Source code for the IMCF Laravel PHP web framework following the
 model–view–controller architectural pattern. Lead Developer: Soteris Constantinou. 
 
 
-Project Leader: Demetris Zeinalipour
+Backend Project Leader: Demetris Zeinalipour
