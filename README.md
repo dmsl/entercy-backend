@@ -61,4 +61,10 @@ The Source code for the IMCF Laravel PHP web framework following the
 model–view–controller architectural pattern. Lead Developer: Soteris Constantinou. 
 
 
-Backend Project Leader: Soteris Constantinou 
+Backend Software Leader: 
+
+Soteris Constantinou 
+Data Management Systems Laboratory (DMSL)
+Department of Computer Science
+University of Cyprus
+Soteris Constantinou <constantinou.sotiris@ucy.ac.cy>
